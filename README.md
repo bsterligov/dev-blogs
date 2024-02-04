@@ -1,3 +1,3 @@
-# Static site
+# Sterligov About Static site
 
-## Section 1
+Url https://bsterligov.github.io/about/
