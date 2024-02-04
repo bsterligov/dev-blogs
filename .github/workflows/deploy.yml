@@ -39,7 +39,7 @@ jobs:
       - name: Build Docs
         run: |
           # Build the site
-          cd docs && yarn && yarn build
+          cd docs && npm ci && npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
