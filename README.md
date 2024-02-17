@@ -1,3 +1,9 @@
-# Sterligov About Static site
+# Boris' Dev Blogs 
 
-Url https://bsterligov.github.io/about/
+## Run in local
+
+```bash
+cd docs
+npm i
+npm run start
+```
