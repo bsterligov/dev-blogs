@@ -39,12 +39,12 @@ jobs:
       - name: Build Docs
         run: |
           # Build the site
-          cd docs && npm ci && npm run build
+          npm ci && npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './docs/build'
+          path: './build'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
